@@ -2,7 +2,7 @@
 This driver permits to receive data over TCP/IP Connection.
 It's a TCP Server that receives data on port 64000.
 
-[![Watch the video](https://raw.githubusercontent.com/isacco1975/Unity-TCP/master/thumbnail.jpg)](https://raw.githubusercontent.com/isacco1975/video.mp4)
+[![Watch the video]()](https://youtu.be/E2geBtUOg24)
 
 # Application
 It can be used to receive data from Serial Ports over TCP.
@@ -35,6 +35,6 @@ Then you have to start the scene in Unity, then the Serial VB Driver pointing to
 your serial device. To change the port, modify the App.config file in the solution or in the /bin/debug folder the file TcpSerialDriver.exe.config then run the driver.
 Start the program on your C64 and use Joystick in Port 2
 
-[![Watch the video](https://raw.githubusercontent.com/isacco1975/Unity-TCP/master/thumbnail2.jpg)](https://raw.githubusercontent.com/isacco1975/video2.mp4)
+[![Watch the video]()](https://youtu.be/71LnhDNPfs4)
 
 
