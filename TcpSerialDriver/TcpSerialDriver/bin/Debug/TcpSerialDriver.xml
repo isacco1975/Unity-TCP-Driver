@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TcpSerialDriver
+</name>
+</assembly>
+<members>
+<member name="T:TcpSerialDriver.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TcpSerialDriver.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TcpSerialDriver.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.Main">
+ <summary>
+ MAIN ROUTINE
+ </summary>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.ReadSettings">
+ <summary>
+ Initialize Application Settings
+ </summary>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.Main_Thread(System.Object)">
+ <summary>
+ Main Thread
+ </summary>
+ <param name="arg"></param>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.SendData(System.String)">
+ <summary>
+ Sending data incoming via Client to serial port 
+ </summary>
+ <param name="msg"></param>
+ <returns></returns>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.SerialPort_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+ <summary>
+ Thread Event DataReceived
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.TCP_Thread(System.Object)">
+ <summary>
+ TCP thread handling tcp events, connections and so on
+ </summary>
+ <param name="arg"></param>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.AcceptClient(System.IAsyncResult)">
+ <summary>
+ A new Client connects to the server
+ </summary>
+ <param name="ar"></param>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.MessageReceived(System.Net.Sockets.TcpClient@,System.String)">
+ <summary>
+ Event handler for incoming messages from Client
+ </summary>
+ <param name="rClient"></param>
+ <param name="str"></param>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.SendMessage(System.Net.Sockets.TcpClient@,System.String)">
+ <summary>
+ Sending data to the client
+ </summary>
+ <param name="rClient"></param>
+ <param name="str"></param>
+</member>
+<member name="M:TcpSerialDriver.TCP_SerialDriver.ClientExited(TcpSerialDriver.TCP_Server)">
+ <summary>
+ Disconnection
+ </summary>
+ <param name="client"></param>
+</member>
+</members>
+</doc>

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3B7327-8650-4412-AF30-704990ABA7CD}|TcpSerialDriver\\TcpSerialDriver.vbproj|D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\tcpserialdriver\\tcp_serialdriver.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F3B7327-8650-4412-AF30-704990ABA7CD}|TcpSerialDriver\\TcpSerialDriver.vbproj|solutionrelative:tcpserialdriver\\tcp_serialdriver.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\isacc\\Setup Guide In-Editor Tutorial (1)\\Assets\\Controller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3B7327-8650-4412-AF30-704990ABA7CD}|TcpSerialDriver\\TcpSerialDriver.vbproj|D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\tcpserialdriver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F3B7327-8650-4412-AF30-704990ABA7CD}|TcpSerialDriver\\TcpSerialDriver.vbproj|solutionrelative:tcpserialdriver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3B7327-8650-4412-AF30-704990ABA7CD}|TcpSerialDriver\\TcpSerialDriver.vbproj|D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\tcpserialdriver\\tcp_server.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F3B7327-8650-4412-AF30-704990ABA7CD}|TcpSerialDriver\\TcpSerialDriver.vbproj|solutionrelative:tcpserialdriver\\tcp_server.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller2.cs",
+              "DocumentMoniker": "C:\\Users\\isacc\\Setup Guide In-Editor Tutorial (1)\\Assets\\Controller2.cs",
+              "ToolTip": "C:\\Users\\isacc\\Setup Guide In-Editor Tutorial (1)\\Assets\\Controller2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:55:06.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TCP_SerialDriver.vb",
+              "DocumentMoniker": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\TcpSerialDriver\\TCP_SerialDriver.vb",
+              "RelativeDocumentMoniker": "TcpSerialDriver\\TCP_SerialDriver.vb",
+              "ToolTip": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\TcpSerialDriver\\TCP_SerialDriver.vb",
+              "RelativeToolTip": "TcpSerialDriver\\TCP_SerialDriver.vb",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-30T20:02:37.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\TcpSerialDriver\\App.config",
+              "RelativeDocumentMoniker": "TcpSerialDriver\\App.config",
+              "ToolTip": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\TcpSerialDriver\\App.config",
+              "RelativeToolTip": "TcpSerialDriver\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-30T20:27:25.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TCP_Server.vb",
+              "DocumentMoniker": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\TcpSerialDriver\\TCP_Server.vb",
+              "RelativeDocumentMoniker": "TcpSerialDriver\\TCP_Server.vb",
+              "ToolTip": "D:\\VBox_Share\\Projects\\COBOL-ARDUINO\\COBOL-PIANO\\TcpSerialDriver\\TcpSerialDriver\\TCP_Server.vb",
+              "RelativeToolTip": "TcpSerialDriver\\TCP_Server.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-11T08:25:22.446Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

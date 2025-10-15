@@ -1,0 +1,55 @@
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe.config
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.pdb
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.xml
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.Resources.resources
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.GenerateResource.cache
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.CoreCompileInputs.cache
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
+S:\Vbox Share\Software_x_sviluppo_COBOL\Progetti_vari\COBOL-ARDUINO\AcuCBL_READ_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.AssemblyReference.cache
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe.config
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.pdb
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.xml
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.Resources.resources
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.GenerateResource.cache
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.CoreCompileInputs.cache
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
+C:\Users\isacc\Documents\Projects\COBOL-ARDUINO\AcuCBL_TCP_Arduino\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.AssemblyReference.cache
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.Resources.resources
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.GenerateResource.cache
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.CoreCompileInputs.cache
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe.config
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.pdb
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.xml
+S:\VBox_Share\Projects\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.AssemblyReference.cache
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe.config
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.pdb
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.xml
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.AssemblyReference.cache
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.Resources.resources
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.GenerateResource.cache
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.CoreCompileInputs.cache
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
+S:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe.config
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.pdb
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.xml
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.AssemblyReference.cache
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.Resources.resources
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.GenerateResource.cache
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.CoreCompileInputs.cache
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
+D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
