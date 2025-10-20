@@ -105,13 +105,15 @@ public class CubesController : MonoBehaviour
     void MoveCubesToNewPositions()
     {
         float actualXPos = 0f, actualYPos = 0f, newXPos = 0f;
-        bool firstRow = true;
+        int rowIndex = 0;
 
         foreach (string row in rows)
         {
-             // Calculating actual positions of cubes in the current column
-             // for row 1 there is no need to move anything, just get actual positions
-             if (row != "EEEEEE")
+             rowIndex++;
+
+            // Calculating actual positions of cubes in the current column
+            // for row 1 there is no need to move anything, just get actual positions
+            if (row != "EEEEEE")
              {
                 GetActualPositions(row);
 
@@ -127,15 +129,15 @@ public class CubesController : MonoBehaviour
                         case 5: newXPos = 16.5f; break;
                     }
 
-                    if (firstRow)
+                    switch (rowIndex)
                     {
-                        MoveCube(row[col], newXPos, actualYPos + 1f, 0.02453f);
+                        case 1: MoveCube(row[col], newXPos, actualYPos + 1f, 0.02453f); break;
+                        case 2: MoveCube(row[col], newXPos, actualYPos + 2.5f, 0.02453f); break;
+                        case 3: MoveCube(row[col], newXPos, actualYPos + 4f, 0.02453f); break;
+                        case 4: MoveCube(row[col], newXPos, actualYPos + 5.5f, 0.02453f); break;
+                        case 5: MoveCube(row[col], newXPos, actualYPos + 7f, 0.02453f); break;
                     }
-                    else
-                        MoveCube(row[col], newXPos, actualYPos + 2.5f, 0.02453f);
                 }
-
-                firstRow = false;
             }
         }
     }
