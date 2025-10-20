@@ -55,10 +55,10 @@ public class CubesController : MonoBehaviour
     {
         o = GameObject.Find("TCP_Component").GetComponent<TCP_Driver>();
         char[] charArray = new char[o.xBuffer.Length];
-        Debug.Log("Incoming TCP message: " + o.xBuffer);
 
         if (o.xBuffer.EndsWith("\r"))
         {
+            Debug.Log("Incoming TCP message: " + o.xBuffer);
             isStringSent = true;            
             receivedChars = o.xBuffer.ToCharArray();
 
@@ -115,23 +115,28 @@ public class CubesController : MonoBehaviour
              {
                 GetActualPositions(row);
 
-                switch (col)
+                for (int col = 0; col < 6; col++)
                 {
-                    case 0: newXPos = 24.0f; break;
-                    case 1: newXPos = 22.3f; break;
-                    case 2: newXPos = 21.0f; break;
-                    case 4: newXPos = 18.0f; break;
-                    case 5: newXPos = 16.5f; break;
+                    switch (col)
+                    {
+                        case 0: newXPos = 24.0f; break;
+                        case 1: newXPos = 22.5f; break;
+                        case 2: newXPos = 21.0f; break;
+                        case 3: newXPos = 19.5f; break;
+                        case 4: newXPos = 18.0f; break;
+                        case 5: newXPos = 16.5f; break;
+                    }
+
+                    if (firstRow)
+                    {
+                        MoveCube(row[col], newXPos, actualYPos + 1f, 0.02453f);
+                    }
+                    else
+                        MoveCube(row[col], newXPos, actualYPos + 2.5f, 0.02453f);
                 }
 
-                if (firstRow)
-                {
-                    firstRow = false;
-                    MoveCube(row[col], newXPos, actualYPos + 1f, 0.02453f);
-                }
-                else
-                    MoveCube(row[col], newXPos, actualYPos + 2.5f, 0.02453f);
-             }
+                firstRow = false;
+            }
         }
     }
 
