@@ -10,7 +10,6 @@ public class CubesController : MonoBehaviour
 
     public TCP_Driver o;
     public bool isStringSent = false;
-    public bool isStart = false;
     char[] receivedChars;
 
     public GameObject RED;
@@ -55,66 +54,30 @@ public class CubesController : MonoBehaviour
     void Update()
     {
         o = GameObject.Find("TCP_Component").GetComponent<TCP_Driver>();
-        //Debug.Log("from Server: " + o.xBuffer);
         char[] charArray = new char[o.xBuffer.Length];
         Debug.Log("Incoming TCP message: " + o.xBuffer);
 
         if (o.xBuffer.EndsWith("\r"))
         {
             isStringSent = true;            
+            receivedChars = o.xBuffer.ToCharArray();
+
+            row5 = new string(receivedChars, 0, 6);
+            row4 = new string(receivedChars, 6, 6);
+            row3 = new string(receivedChars, 12, 6);
+            row2 = new string(receivedChars, 18, 6);
+            row1 = new string(receivedChars, 24, 6);
+
+            rows = new List<string>();
+            rows.Clear();
+            rows.Add(row1);
+            rows.Add(row2);
+            rows.Add(row3);
+            rows.Add(row4);
+            rows.Add(row5);
+
+            MoveCubesToNewPositions();
             
-            if (o.xBuffer.Contains("START"))
-            {
-                isStart = true;
-                string s = o.xBuffer.Split('.')[0];
-                receivedChars = s.Substring(24).ToCharArray();
-            } else
-            {
-                receivedChars = o.xBuffer.ToCharArray();
-
-                //redActualXPos = RED.GetComponent<Transform>().localPosition.x;
-                //greenActualXPos = GREEN.GetComponent<Transform>().localPosition.x;
-                //yellowActualXPos = YELLOW.GetComponent<Transform>().localPosition.x;
-                //blueActualXPos = BLUE.GetComponent<Transform>().localPosition.x;
-                //
-                //redActualYPos = RED.GetComponent<Transform>().localPosition.y;
-                //greenActualYPos = GREEN.GetComponent<Transform>().localPosition.y;
-                //yellowActualYPos = YELLOW.GetComponent<Transform>().localPosition.y;
-                //blueActualYPos = BLUE.GetComponent<Transform>().localPosition.y;
-
-                row5 = new string(receivedChars, 0, 6);
-                row4 = new string(receivedChars, 6, 6);
-                row3 = new string(receivedChars, 12, 6);
-                row2 = new string(receivedChars, 18, 6);
-                row1 = new string(receivedChars, 24, 6);
-
-                rows = new List<string>();
-
-                rows.Add(row1);
-                rows.Add(row2);
-                rows.Add(row3);
-                rows.Add(row4);
-                rows.Add(row5);
-
-                MoveCubesToNewPositions();
-            }
-
-            switch (o.xBuffer)
-            {
-                case "XXX":
-                     break;
-                default:
-                    Debug.Log("Received unknown command");
-                    break;
-            }
-
-            if (isStart)
-            {
-                Debug.Log("Received START command");
-                DrawInitialSituation();
-                isStart = false;
-            }
-
             if (isStringSent)
             {
                 isStringSent = false;
@@ -125,33 +88,6 @@ public class CubesController : MonoBehaviour
                     receivedChars[idx] = '\0';
                 }
             }
-        }
-    }
-
-    void DrawInitialSituation()
-    {
-        //pos1 x=24
-        //pos2 x=22.5
-        //pow3 x=21
-        //pos4 x=19.5
-        //pos5 x=18
-        //pos6 x=16.5
-        float xPos = 0;
-        string cubeToMove = "";
-
-        for (int idx = 0; idx < receivedChars.Length; idx++)
-        {
-            switch (idx)
-            {
-                case 0: xPos = 24.0f; break;
-                case 1: xPos = 22.3f; break;
-                case 2: xPos = 21.0f; break;
-                case 3: xPos = 19.5f; break;
-                case 4: xPos = 18.0f; break;
-                case 5: xPos = 16.5f; break;
-            }
-               
-            MoveCube(receivedChars[idx], xPos, 1f, 0.02453f);
         }
     }
 
@@ -175,7 +111,7 @@ public class CubesController : MonoBehaviour
         {
              // Calculating actual positions of cubes in the current column
              // for row 1 there is no need to move anything, just get actual positions
-             if (row != "EEEEE")
+             if (row != "EEEEEE")
              {
                 GetActualPositions(row);
 
@@ -191,7 +127,9 @@ public class CubesController : MonoBehaviour
                 if (firstRow)
                 {
                     firstRow = false;
-                } else
+                    MoveCube(row[col], newXPos, actualYPos + 1f, 0.02453f);
+                }
+                else
                     MoveCube(row[col], newXPos, actualYPos + 2.5f, 0.02453f);
              }
         }
