@@ -24,22 +24,10 @@ public class CubesController : MonoBehaviour
     public string row4 = "";
     public string row5 = "";
 
-    public char[] xrow1, xrow2, xrow3, xrow4, xrow5;
-
-    float redActualXPos;
-    float greenActualXPos;
-    float yellowActualXPos;
-    float blueActualXPos;
-
-    float redActualYPos;
-    float greenActualYPos;
-    float yellowActualYPos;
-    float blueActualYPos;
-
     float actualXPos = 0f, actualYPos = 0f;
     public int col = 0;
 
-    List<string> rows; 
+    List<string> rows;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -59,7 +47,7 @@ public class CubesController : MonoBehaviour
         if (o.xBuffer.EndsWith("\r"))
         {
             Debug.Log("Incoming TCP message: " + o.xBuffer);
-            isStringSent = true;            
+            isStringSent = true;
             receivedChars = o.xBuffer.ToCharArray();
 
             row5 = new string(receivedChars, 0, 6);
@@ -77,12 +65,12 @@ public class CubesController : MonoBehaviour
             rows.Add(row5);
 
             MoveCubesToNewPositions();
-            
+
             if (isStringSent)
             {
                 isStringSent = false;
                 o.xBuffer = "";
-                
+
                 for (int idx = 0; idx < receivedChars.Length; idx++)
                 {
                     receivedChars[idx] = '\0';
@@ -109,12 +97,12 @@ public class CubesController : MonoBehaviour
 
         foreach (string row in rows)
         {
-             rowIndex++;
+            rowIndex++;
 
             // Calculating actual positions of cubes in the current column
             // for row 1 there is no need to move anything, just get actual positions
             if (row != "EEEEEE")
-             {
+            {
                 GetActualPositions(row);
 
                 for (int col = 0; col < 6; col++)
@@ -145,7 +133,7 @@ public class CubesController : MonoBehaviour
     void GetActualPositions(string a)
     {
         if (a.Contains("R"))
-        { 
+        {
             col = a.IndexOf("R");
             actualXPos = RED.GetComponent<Transform>().localPosition.x;
             actualYPos = RED.GetComponent<Transform>().localPosition.y;
@@ -154,7 +142,7 @@ public class CubesController : MonoBehaviour
         if (a.Contains("Y"))
         {
             col = a.IndexOf("Y");
-            actualXPos = YELLOW.GetComponent<Transform>().localPosition.x; 
+            actualXPos = YELLOW.GetComponent<Transform>().localPosition.x;
             actualYPos = YELLOW.GetComponent<Transform>().localPosition.y;
         }
 
