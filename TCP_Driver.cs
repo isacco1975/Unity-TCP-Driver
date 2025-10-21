@@ -112,29 +112,6 @@ public class TCP_Driver : MonoBehaviour
             xBuffer = string.Empty;
         else
             xBuffer += str.Split('\0')[0];
-
-        //Here data will be handled properly by the second script in the controlled object
-        //you don't have to put anything here
-        //    if (xBuffer.EndsWith("\r"))
-        //    {
-        //        //Debug.Log("Incoming TCP message: " + xBuffer);
-        //        //string[] values = xBuffer.Split(';');
-        //        //
-        //        //x = values[0];
-        //        //y = values[1];
-        //        //z = values[2];
-        //        //
-        //        //xBuffer = "";
-        //
-        //        if(f)
-        //            xBuffer = "";
-        //    }
-        //}
-        //catch (Exception ex)
-        //{
-        //    Debug.Log(ex.Message);
-        //    //throw ex;
-        //}
     }
 
     /// <summary>
