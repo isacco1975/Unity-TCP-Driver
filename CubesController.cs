@@ -56,51 +56,22 @@ public class CubesController : MonoBehaviour
         Debug.Log("Incoming TCP message: " + o.xBuffer);
         isStringSent = true;
         receivedChars = o.xBuffer.ToCharArray();
-
-        row5 = new string(receivedChars, 0, 6);
-        row4 = new string(receivedChars, 6, 6);
-        row3 = new string(receivedChars, 12, 6);
-        row2 = new string(receivedChars, 18, 6);
         row1 = new string(receivedChars, 24, 6);
 
-        rows = new List<string>();
-        rows.Clear();
-        rows.Add(row1);
-        rows.Add(row2);
-        rows.Add(row3);
-        rows.Add(row4);
-        rows.Add(row5);
-
-        foreach (string row in rows)
+        if (row1 != "EEEEEE")
         {
-            rowIndex++;
+            GetActualPositions(row1);
 
-            // Calculating actual positions of cubes in the current column
-            // for row 1 there is no need to move anything, just get actual positions
-            if (row != "EEEEEE")
+            for (int col = 0; col < 6; col++)
             {
-                GetActualPositions(row);
-
-                for (int col = 0; col < 6; col++)
+                switch (col)
                 {
-                    switch (col)
-                    {
-                        case 0: newXPos = 24.0f; break;
-                        case 1: newXPos = 22.5f; break;
-                        case 2: newXPos = 21.0f; break;
-                        case 3: newXPos = 19.5f; break;
-                        case 4: newXPos = 18.0f; break;
-                        case 5: newXPos = 16.5f; break;
-                    }
-
-                    switch (rowIndex)
-                    {
-                        case 1: MoveCube(row[col], newXPos, actualYPos + 1f, 0.02453f); break;
-                        case 2: MoveCube(row[col], newXPos, actualYPos + 2.5f, 0.02453f); break;
-                        case 3: MoveCube(row[col], newXPos, actualYPos + 4f, 0.02453f); break;
-                        case 4: MoveCube(row[col], newXPos, actualYPos + 5.5f, 0.02453f); break;
-                        case 5: MoveCube(row[col], newXPos, actualYPos + 7f, 0.02453f); break;
-                    }
+                    case 0: newXPos = 24.0f; MoveCube(row1[col], newXPos, actualYPos + 1f, 0.02453f); break; break;
+                    case 1: newXPos = 22.5f; MoveCube(row1[col], newXPos, actualYPos + 1f, 0.02453f); break;
+                    case 2: newXPos = 21.0f; MoveCube(row1[col], newXPos, actualYPos + 1f, 0.02453f); break;
+                    case 3: newXPos = 19.5f; MoveCube(row1[col], newXPos, actualYPos + 1f, 0.02453f); break;
+                    case 4: newXPos = 18.0f; MoveCube(row1[col], newXPos, actualYPos + 1f, 0.02453f); break;
+                    case 5: newXPos = 16.5f; MoveCube(row1[col], newXPos, actualYPos + 1f, 0.02453f); break;
                 }
             }
         }
@@ -166,7 +137,7 @@ public class CubesController : MonoBehaviour
     {
         char cubeToMove = Convert.ToChar(o.xBuffer.Substring(0, 1));
         float xPosition = float.Parse(o.xBuffer.Split(";")[4]);
-        float yPosition = float.Parse(o.xBuffer.Split(";")[6]);
+        float yPosition = float.Parse(o.xBuffer.Split(";")[7]);
         MoveCube(cubeToMove, xPosition, yPosition, 0.02453f);
     }
 
@@ -181,7 +152,7 @@ public class CubesController : MonoBehaviour
         if (o.xBuffer.EndsWith("\r"))
         {
             isStringSent = true;
-
+            Debug.Log("Incoming TCP message: " + o.xBuffer);
             if (o.xBuffer.Contains("GENERA"))
                 DrawInitialSituation();
             else
