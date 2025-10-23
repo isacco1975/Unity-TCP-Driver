@@ -135,9 +135,10 @@ public class CubesController : MonoBehaviour
     /// </summary>
     void AnimateCube()
     {
-        char cubeToMove = Convert.ToChar(o.xBuffer.Substring(0, 1));
-        float xPosition = float.Parse(o.xBuffer.Split(";")[4]);
-        float yPosition = float.Parse(o.xBuffer.Split(";")[7]);
+        char cubeToMove = Convert.ToChar(o.xBuffer.Split(";")[0]);
+        Single xPosition = Single.Parse(o.xBuffer.Split(";")[1]);
+        Single yPosition = Single.Parse(o.xBuffer.Split(";")[2]);
+
         MoveCube(cubeToMove, xPosition, yPosition, 0.02453f);
     }
 
