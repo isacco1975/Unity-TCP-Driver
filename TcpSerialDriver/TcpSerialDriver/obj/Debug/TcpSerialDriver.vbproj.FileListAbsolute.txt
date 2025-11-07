@@ -53,3 +53,15 @@ D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver
 D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
 D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
 D:\VBox_Share\Projects\COBOL-ARDUINO\COBOL-PIANO\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe.config
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.exe
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.pdb
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\bin\Debug\TcpSerialDriver.xml
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.AssemblyReference.cache
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe.config
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.Resources.resources
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.GenerateResource.cache
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.vbproj.CoreCompileInputs.cache
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.exe
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.xml
+D:\VBox_Share\Projects\UNITY-TCP-DRIVER\TcpSerialDriver\TcpSerialDriver\obj\Debug\TcpSerialDriver.pdb
