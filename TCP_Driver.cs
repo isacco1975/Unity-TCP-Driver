@@ -108,10 +108,7 @@ public class TCP_Driver : MonoBehaviour
     /// <param name="str"></param>
     void MessageReceived(TcpClient rClient, string str)
     {
-        if (str.StartsWith(((char)2).ToString()))
-            xBuffer = string.Empty;
-        else
-            xBuffer += str.Split('\0')[0];
+        xBuffer = str.Split('\r')[0] + "\r";
     }
 
     /// <summary>
